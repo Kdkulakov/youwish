@@ -1,0 +1,190 @@
+body {
+    background-color: #f8f8f8;
+
+}
+
+.nav {
+ 
+    box-shadow: 0px 2px 12px 0px black;
+    background: linear-gradient(77deg, rgb(199, 153, 31) 0%, rgb(248, 147, 147) 100%);
+    
+    
+}
+
+.nav ul {
+    display: inline-flex;
+}
+
+.nav ul li {
+    list-style-type: none;
+    width: 33%;
+    margin: 0px 5px 0px 5px;
+}
+
+.nav li a {
+    color: #9a1919;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #eae96e;
+}
+
+.card-title {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.card-text {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.card-text-full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card-img-top:hover {
+    outline: 1px solid red;
+}
+
+.card-body a:hover {
+    color: brown;
+}
+
+.jumbotron {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+
+.display-4 h1 {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    color: #9e1919;
+}
+
+.display-4 a {
+    text-decoration: none;
+}
+
+.display-4 h1:hover {
+    color: #9e5918;
+}
+
+
+.jumbotron h2 {
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+    margin-top: -20px;
+
+}
+
+.container {
+    margin-bottom: 20px;
+    width: 820px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content {
+    margin-bottom: 150px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.card {
+    width: 15rem;
+    margin: 10px;
+    float: left
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+footer .container {
+    display: -webkit-box;
+    width: 810px;
+    margin: 0 auto;
+}
+
+.img-bordered {
+    border: 2px solid #ad2c2c;
+    width: 450px;
+    margin-bottom: 30px;
+    border-style: dotted;
+}
+
+input {
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 5px 10px 10px;
+}
+
+input:invalid:not(:active) {
+    background-color: aquamarine;
+    color: #017d29;
+}
+
+textarea {
+    height: 250px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.textcap {
+    text-transform: capitalize;
+    color: aqua;
+}
+
+.list-decor li {
+    list-style-type: square;
+}
+
+form .btn {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+form .btn:hover {
+    background-position: right center;
+}
