@@ -4,34 +4,40 @@
 <head>
     <meta charset="utf-8">
     <title>YouWish Store</title>
-    <link href="../style.css" type="text/css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="../style.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class="container" >
-            <div class="jumbotron">
+        <div class="container">
+            <div class="jumbotron" style="background-color: antiquewhite; padding: 20px;">
                 <div class="display-4">
-                   <a href="../index.html">
-                       <h1>Приветствуем в YouWish Store</h1></a>
-                </div>
-                <div class="lead">
-                    <h2> Магазин ваших желаний</h2>
+                    <div class="logo">
+                        <img src="../images/logo.png" alt="Logo">
+                    </div>
+                    <div class="site-name">
+                        <a href="#">
+                            <h1>Приветствуем в YouWish Store</h1>
+                        </a>
+                    </div>
+                    <div class="lead">
+                        <h2> Магазин ваших желаний</h2>
+                    </div>
                 </div>
             </div>
-        <div class="nav">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="../catalog/catalog.html">Каталог</a></li>
-            <li><a href="../contacts.html">Контакты</a></li>
-        </ul>
-        </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../catalog/catalog.html">Каталог</a></li>
+                    <li><a href="../contacts.html">Контакты</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <div class="content">
-       <h2>Подробное описание товара</h2>
+        <h2>Подробное описание товара</h2>
         <div class="container">
             <h2>Huawei Watch 2</h2>
             <div class="card-body">
@@ -39,45 +45,76 @@
                 <div class="card-body">
                     <div class="card-title">Детальное описание</div>
                     <p class="card-text-full"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vero, enim at temporibus velit accusamus consectetur quos odio alias animi ad voluptatum, et dicta perspiciatis, nesciunt dolores deleniti saepe similique?</span>
-                    <span>Ab repellendus vel, cum, minus facilis totam delectus. Aspernatur placeat dolorem corrupti molestiae esse, nesciunt recusandae. Quae quaerat eligendi expedita harum, dolorum culpa praesentium, odio modi veritatis, ducimus iusto tempore.</span>
-                    <span>Impedit rerum, repudiandae atque et. Cumque ab itaque quasi nulla nihil porro accusantium ducimus laboriosam esse nisi sit quisquam ipsa magni error, fugit assumenda rem ut officiis velit nobis. Veniam.</span>
-                    <span>Aut quod animi veniam officiis labore saepe molestias, amet sapiente placeat laudantium, sed maiores. Architecto iusto nihil nam recusandae iure, vitae debitis amet delectus expedita neque sequi ea magni eos.</span>
-                    <span>Et ad enim esse illum deleniti eos? Ab ipsum earum obcaecati suscipit vel quos rem veniam delectus recusandae atque illo quae laboriosam at temporibus, facilis, odio inventore aliquam doloremque minus.</span></p>
-                    
+                        <span>Ab repellendus vel, cum, minus facilis totam delectus. Aspernatur placeat dolorem corrupti molestiae esse, nesciunt recusandae. Quae quaerat eligendi expedita harum, dolorum culpa praesentium, odio modi veritatis, ducimus iusto tempore.</span>
+                        <span>Impedit rerum, repudiandae atque et. Cumque ab itaque quasi nulla nihil porro accusantium ducimus laboriosam esse nisi sit quisquam ipsa magni error, fugit assumenda rem ut officiis velit nobis. Veniam.</span>
+                        <span>Aut quod animi veniam officiis labore saepe molestias, amet sapiente placeat laudantium, sed maiores. Architecto iusto nihil nam recusandae iure, vitae debitis amet delectus expedita neque sequi ea magni eos.</span>
+                        <span>Et ad enim esse illum deleniti eos? Ab ipsum earum obcaecati suscipit vel quos rem veniam delectus recusandae atque illo quae laboriosam at temporibus, facilis, odio inventore aliquam doloremque minus.</span></p>
+
                 </div>
                 <div class="card-title">Характеристики товара</div>
                 <table>
-                   <caption>Таблица характеристик</caption>
+                    <caption>Основные</caption>
                     <tr>
-                        <td><strong>Характеристика</strong></td>
+                        <td>Характеристика</td>
                         <td>Значение</td>
                     </tr>
                     <tr>
-                        <td>as</td>
-                        <td>s</td>
+                        <td>Водонепроницаемость</td>
+                        <td>50 m</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>3</td>
+                        <td>Класс защиты</td>
+                        <td>IP67</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Sapce Gray</td>
+                    </tr>
+                </table>
+                <table class="table-dop">
+                    <caption>Дополнительные</caption>
+                    <tr>
+                        <td colspan="2">Характеристика</td>
+                        <td>Значение</td>
+                    </tr>
+                    <tr>
+                        <td>Водонепроницаемость</td>
+                        <td>50 m</td>
+                        <td>50 m</td>
+                    </tr>
+                    <tr>
+                        <td>Класс защиты</td>
+                        <td>IP67</td>
+                        <td>IP67</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Sapce Gray</td>
+                        <td>Sapce Gray</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Sapce Gray</td>
+                        <td>Sapce Gray</td>
                     </tr>
                 </table>
                 <div class="list-decor">
-                <ul>
-                    <li>Характеристика 1</li>
-                    <li>Характеристика 2</li>
-                    <li>Характеристика 3</li>
-                    <li>Характеристика 4</li>
-                    <li>Характеристика 5</li>
-                </ul>
+                    <ul>
+                        <li>Характеристика 1</li>
+                        <li>Характеристика 2</li>
+                        <li>Характеристика 3</li>
+                        <li>Характеристика 4</li>
+                        <li>Характеристика 5</li>
+                    </ul>
                 </div>
             </div>
-        
+
 
         </div>
     </div>
     <footer>
         <hr />
-        <div class="container" >
+        <div class="container">
             <div class="col-4">
             </div>
             <div class="col-4" style="text-align: center">

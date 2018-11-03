@@ -53,6 +53,11 @@ body {
     text-align: left;
 }
 
+.card-text-full:first-letter {
+    font-weight: 600;
+    font-size: 24px;
+}
+
 .card-img-top:hover {
     outline: 1px solid red;
 }
@@ -134,12 +139,17 @@ footer .container {
 }
 
 .img-bordered {
-    border: 2px solid #ad2c2c;
+    outline: 2px solid #ad2c2c;
     width: 450px;
     margin-bottom: 30px;
-    border-style: dotted;
+    outline-style: dotted;
+    margin-left: 2px;
 }
 
+.img-bordered:hover {
+    outline: 2px solid white;
+    border-style: none;
+}
 input {
     height: 30px;
     font-size: 16px;
@@ -187,4 +197,23 @@ form .btn {
 
 form .btn:hover {
     background-position: right center;
+}
+
+table {
+    margin: 20px;
+}
+table td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+table tr:first-child {
+    font-weight: 600;
+    height: 60px;
+}
+
+
+table caption {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ceaf9d;
 }
