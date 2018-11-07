@@ -1,18 +1,25 @@
 body {
     background-color: #f8f8f8;
-
 }
 
 .nav {
- 
     box-shadow: 0px 2px 12px 0px black;
     background: linear-gradient(77deg, rgb(199, 153, 31) 0%, rgb(248, 147, 147) 100%);
-    
-    
+}
+
+header {
+    height: 230px;
+
 }
 
 .nav ul {
     display: inline-flex;
+    width: 250px;
+}
+
+.menu {
+    text-align: right;
+    margin-right: 63px;
 }
 
 .nav ul li {
@@ -51,6 +58,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    max-height: 260px;
+    overflow: hidden;
 }
 
 .card-text-full:first-letter {
@@ -66,12 +75,18 @@ body {
     color: brown;
 }
 
+.card-body p {
+    position: relative;
+}
+
 .jumbotron {
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 20px 20px 0px 0px;
     width: 94%;
     margin: 0 auto;
+    background-image: url(images/header.jpeg);
+    background-size: cover;
 }
 
 .logo img {
@@ -101,41 +116,41 @@ body {
     font-family: 'Comfortaa', cursive;
     font-weight: 100;
     margin-top: -20px;
-
 }
 
 .container {
-    margin-bottom: 20px;
     width: 820px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .content {
-    margin-bottom: 150px;
     width: 800px;
     margin: 0 auto;
     padding: 0px 20px 0px 20px;
 }
 
 .card {
-    width: 15rem;
-    margin: 10px;
-    float: left
+    max-width: 13rem;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    float: left;
 }
 
 footer {
-    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 80px;
+    clear: both;
+    margin-top: 50px;
+    background-color: #88888847;
 }
 
 footer .container {
     display: -webkit-box;
     width: 810px;
     margin: 0 auto;
+    position: relative;
 }
 
 .img-bordered {
@@ -144,6 +159,8 @@ footer .container {
     margin-bottom: 30px;
     outline-style: dotted;
     margin-left: 2px;
+    float: left;
+    margin: 0px 20px 10px 0px;
 }
 
 .img-bordered:hover {
@@ -179,7 +196,7 @@ textarea {
     list-style-type: square;
 }
 
-form .btn {
+.btn {
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -195,7 +212,7 @@ form .btn {
     transition: .5s;
 }
 
-form .btn:hover {
+.btn:hover {
     background-position: right center;
 }
 
@@ -216,4 +233,51 @@ table caption {
     font-size: 18px;
     font-weight: 600;
     background-color: #ceaf9d;
+}
+
+.flex {
+    display: ;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:
+}
+
+.copy {
+    width: 200px;
+    right: 0px;
+    position: absolute;
+}
+
+.control-place input{
+    width: 200px;
+    margin: 10px;
+}
+
+.control-place {
+    display: flex;
+    float: right;
+    padding-top: 20px;
+}
+
+.description {
+    height: 300px
+}
+
+.table-his {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+form .res {
+    background-color: darkgray;
+    background-image: none;
+}
+
+.col {
+    width: 45%;
+}
+.harakter {
+    display: flex;
+    justify-content: space-around;
 }
